@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="Source\main.cpp" />
+    <ClCompile Include="Source\Globals\globals.cpp">
+      <Filter>Globals</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Shaders\Utils\shaderLoader.cpp">
+      <Filter>Shaders\Utils</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Shaders">
+      <UniqueIdentifier>{57d4e482-e812-4163-8863-3ece7ae47a5a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shaders\Utils">
+      <UniqueIdentifier>{873a2f21-eff1-46c3-b6d6-1d1ff284046e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Globals">
+      <UniqueIdentifier>{64266607-2d38-4ea3-9e43-b77508baf099}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Source\Shaders\SimpleFragmentShader.frag">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="Source\Shaders\SimpleVertexShader.vert">
+      <Filter>Shaders</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Source\Globals\globals.hpp">
+      <Filter>Globals</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Shaders\Utils\shaderLoader.hpp">
+      <Filter>Shaders\Utils</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

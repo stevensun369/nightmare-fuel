@@ -1,0 +1,1 @@
+/usr/bin/c++ -g -Wl,--dependency-file=CMakeFiles/ACG_Lab4.dir/link.d CMakeFiles/ACG_Lab4.dir/Source/Globals/globals.cpp.o CMakeFiles/ACG_Lab4.dir/Source/Shaders/Utils/shaderLoader.cpp.o CMakeFiles/ACG_Lab4.dir/Source/main.cpp.o -o Bin/ACG_Lab4  /usr/lib64/libglfw.so.3.4 /usr/lib64/libGLEW.so /usr/lib64/libGLX.so /usr/lib64/libOpenGL.so

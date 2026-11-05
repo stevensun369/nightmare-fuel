@@ -1,0 +1,4 @@
+/home/sunshine/coding/school/ecg/nightmare_fuel/build/CMakeFiles/ACG_Lab4.dir
+/home/sunshine/coding/school/ecg/nightmare_fuel/build/CMakeFiles/run.dir
+/home/sunshine/coding/school/ecg/nightmare_fuel/build/CMakeFiles/edit_cache.dir
+/home/sunshine/coding/school/ecg/nightmare_fuel/build/CMakeFiles/rebuild_cache.dir
